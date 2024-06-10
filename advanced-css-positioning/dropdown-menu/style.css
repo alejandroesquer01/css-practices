@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1200px;
+    background-color: darkslategrey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.example {
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    margin: 50px 0;
+    background-color: #D6E9FE;
+}
+
+.item img {
+    display: block;
+}
+
+.item-relative {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.absolute {
+    position: relative;
+}
+
+.item-absolute {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.fixed {
+    position: relative;
+}
+
+.item-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
